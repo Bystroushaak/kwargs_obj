@@ -60,17 +60,11 @@ setup(
     include_package_data=True,
     zip_safe=True,
 
-    install_requires=open("requirements.txt").read().splitlines(),
-
     test_suite='py.test',
     tests_require=["pytest"],
     extras_require={
         "test": [
             "pytest"
         ],
-        "docs": [
-            "sphinx",
-            "sphinxcontrib-napoleon",
-        ]
     },
 )
