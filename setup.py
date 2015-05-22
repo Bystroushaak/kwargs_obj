@@ -40,7 +40,7 @@ def getVersion(data):
 setup(
     name='kwargs_obj',
     version=getVersion(CHANGELOG),
-    description='Class that maps kwargs to attributes.',
+    description='Class that maps .__init__(self, **kwargs) to attributes.',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/Bystroushaak/kwargs_obj',
 
